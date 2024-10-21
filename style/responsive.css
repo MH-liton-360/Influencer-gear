@@ -1,0 +1,63 @@
+@media screen and (max-width: 576px) {
+
+    /* .navbar,
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    } */
+    .navbar,
+    .nav-links {
+        flex-direction: row;
+        padding: 10px 30px;
+
+    }
+
+    .nav-hamburger-menu {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .journey-as-influencer-wrap {
+        flex-direction: column;
+    }
+
+    .journey-as-influencer {
+        padding: 0px 30px;
+        position: relative;
+        top: 400px;
+
+
+    }
+
+    .camera {
+        position: relative;
+        top: -300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* medium size */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .brand {
+        padding-left: 10px;
+    }
+
+    .nav-hamburger-menu {
+        display: none;
+    }
+
+    .journey-as-influencer {
+        padding: 0px 30px;
+    }
+
+}

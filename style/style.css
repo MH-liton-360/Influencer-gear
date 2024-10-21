@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+.display-flex {
+    display: flex;
+}
+
+.bg-color {
+    background-color: aliceblue;
+}
+
+.navbar {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+
+/* Journey style  */
+
+.journey-as-influencer-wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.journey-as-influencer {
+    max-width: 500px;
+    max-height: 280px;
+    padding-top: 80px;
+}
+
+.journey-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+
+}
+
+.camera {
+    max-width: 450px;
+    max-height: 415px;
+
+}
+
+.btn-primary {
+    margin-top: 10px;
+    width: 120px;
+    height: 25px;
+    border: none;
+    color: white;
+    border-radius: 11px;
+    background: rgb(224, 44, 109);
+}
